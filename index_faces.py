@@ -2,16 +2,16 @@ import boto3
 
 s3_client = boto3.client(
     's3',
-    aws_access_key_id='AKIAQBL2KPI7GSJL2LU4',
-    aws_secret_access_key='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',
+    aws_access_key_id='',
+    aws_secret_access_key='',
 
 )
 
 collectionId='mycollection' #collection name
 
 rek_client=boto3.client('rekognition',
-                            aws_access_key_id='AKIAQBL2KPI7GSJL2LU4',
-                            aws_secret_access_key='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',)
+                            aws_access_key_id='',
+                            aws_secret_access_key='',)
 
 
 bucket = 'indexed-faces-mira' #S3 bucket name
