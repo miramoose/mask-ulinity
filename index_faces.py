@@ -13,8 +13,7 @@ rek_client=boto3.client('rekognition',
                             aws_access_key_id='',
                             aws_secret_access_key='',)
 
-
-bucket = 'indexed-faces-mira' #S3 bucket name
+bucket = 'index-faces-mira' #S3 bucket name
 all_objects = s3_client.list_objects(Bucket =bucket )
 
 
